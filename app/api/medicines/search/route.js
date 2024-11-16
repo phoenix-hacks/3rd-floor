@@ -1,9 +1,6 @@
 import Shop from '../../../models/Shop.js';
 import connectMongo from '../../../lib/connectmongo.js';
 
-
-
-
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
   const medicinesArray = searchParams.getAll('medicine');
