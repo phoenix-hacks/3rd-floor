@@ -55,11 +55,11 @@ export default function Home() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold">Medicine Locator</h1>
+      <h1 className="text-2xl font-bold ">MediMap</h1>
 
       <form onSubmit={handleSearch} className="mt-4 space-y-4">
         <div>
-          <label htmlFor="medicine" className="block">Medicine(s)</label>
+          <label htmlFor="medicine" className="block py-2">Medicine(s)</label>
           <input
             id="medicine"
             type="text"
